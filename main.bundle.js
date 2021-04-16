@@ -28842,7 +28842,7 @@ window.onload = function () {
   excuses.forEach(function (element) {
     excuse += element + " ";
   });
-  $("#excuse").html = excuse;
+  jquery__WEBPACK_IMPORTED_MODULE_2___default()("#excuse").html = excuse;
 };
 
 /***/ }),
