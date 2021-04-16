@@ -28816,14 +28816,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _assets_img_rigo_baby_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/img/rigo-baby.jpg */ "./src/assets/img/rigo-baby.jpg");
-/* harmony import */ var _assets_img_4geeks_ico__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/img/4geeks.ico */ "./src/assets/img/4geeks.ico");
+/* harmony import */ var _assets_img_rigo_baby_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/img/rigo-baby.jpg */ "./src/assets/img/rigo-baby.jpg");
+/* harmony import */ var _assets_img_4geeks_ico__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/img/4geeks.ico */ "./src/assets/img/4geeks.ico");
 /* eslint-disable */
 
 
-
+/*import "jquery";
+import $ from "jquery";*/
 
 
 
@@ -28842,8 +28841,9 @@ window.onload = function () {
   var excuse = "";
   excuses.forEach(function (element) {
     excuse += element + " ";
-  });
-  jquery__WEBPACK_IMPORTED_MODULE_2___default()("#excuse").html = excuse;
+  }); //$("#excuse").html = excuse;
+
+  this.document.getElementById("excuse").innerHTML = excuse;
 };
 
 /***/ }),
