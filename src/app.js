@@ -1,6 +1,8 @@
 /* eslint-disable */
 import "bootstrap";
 import "./style.css";
+/*import "jquery";
+import $ from "jquery";*/
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
@@ -31,5 +33,6 @@ window.onload = function() {
   excuses.forEach(element => {
     excuse += element + " ";
   });
-  $("#excuse").html = excuse;
+  //$("#excuse").html = excuse;
+  document.getElementById("excuse").innerHTML = excuse;
 };
