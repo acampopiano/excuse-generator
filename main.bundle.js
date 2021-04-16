@@ -28839,7 +28839,7 @@ window.onload = function () {
   excuses.forEach(function (element) {
     excuse += element + " ";
   });
-  document.getElementById("excuse").innerHTML = excuse;
+  $("#excuse").html = excuse;
 };
 
 /***/ }),
