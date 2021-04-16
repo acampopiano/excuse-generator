@@ -13,20 +13,9 @@ window.onload = function() {
   let valueToUseAction = action[Math.floor(Math.random() * action.length)];
   let what = ["my homework", "the keys", "the car"];
   let valueToUseWhat = what[Math.floor(Math.random() * what.length)];
-  let when = [
-    "before the class",
-    "right on time",
-    "when I finished",
-    "during my lunch",
-    "while I was praying"
-  ];
+  let when = ["before the class","right on time","when I finished","during my lunch","while I was praying"];
   let valueToUseWhen = when[Math.floor(Math.random() * when.length)];
-  let excuses = [
-    valueToUseWho,
-    valueToUseAction,
-    valueToUseWhat,
-    valueToUseWhen
-  ];
+  let excuses = [valueToUseWho,valueToUseAction,valueToUseWhat,valueToUseWhen];
   var excuse = "";
   excuses.forEach(element => {
     excuse += element + " ";
